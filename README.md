@@ -46,36 +46,3 @@ Target Variable:
 6️⃣ Model Evaluation
 7️⃣ Model Deployment using **Streamlit**
 
----
-
-# 🚀 Quick Start Guide
-
-Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-Run the application
-
-```
-streamlit run app.py
-```
-
----
-
-# 📁 Key Files
-
-```
-app.py                 → Streamlit web application
-model.pkl              → Trained Random Forest model
-Model_Building.ipynb   → ML model training pipeline
-churn_analysis_EDA.ipynb → Data analysis notebook
-tel_churn.csv          → Dataset
-```
-
----
-
-# 📌 Result
-
-The model predicts whether a telecom customer is likely to churn and provides prediction confidence using a deployed Streamlit application.
